@@ -1,4 +1,4 @@
-# 📞 Megaline Plans Revenue Analysis
+# Megaline Plans Revenue Analysis
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)  
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue)  
@@ -78,13 +78,9 @@ Each user has information about calls, messages, internet usage, city, and plan 
 **H₀:** The average monthly revenue for Surf and Ultimate users is equal.  
 **H₁:** The average monthly revenue for Surf and Ultimate users differs.
 
-| Plan | Mean | Std |
-|--------|-------|-------|
-| **surf** | **60.71** | **55.39** |
-| **ultimate** | **72.31** | **11.40** |
-
 
 **t-test Result**
+
 **p-value** → **0.0000** 
 
 
@@ -106,6 +102,7 @@ We reject H₀, there is a statistically significant difference between the two 
 
 
 **t-test Result**
+
 **p-value** → **0.0335** 
 
 
